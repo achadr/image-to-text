@@ -1,0 +1,84 @@
+{
+    "gpt_text": [
+    {
+      "label": "Dyorika Warhorse",
+      "value": {
+        "currentPrice": 935,
+        "recentPrice": 849,
+        "avgPrice": 7425
+      }
+    },
+    {
+      "label": "Achatemeow Selection Chest",
+      "value": {
+        "currentPrice": 2295,
+        "recentPrice": 2498,
+        "avgPrice": 2068.1
+      }
+    },
+    {
+      "label": "Lemon Pifata",
+      "value": {
+        "currentPrice": 2639,
+        "recentPrice": 2641,
+        "avgPrice": 2625
+      }
+    },
+    {
+      "label": "Cookie Pifiata",
+      "value": {
+        "currentPrice": 2740,
+        "recentPrice": 2740,
+        "avgPrice": 0
+      }
+    },
+    {
+      "label": "Strawberry Pifiata",
+      "value": {
+        "currentPrice": 2800,
+        "recentPrice": 2776,
+        "avgPrice": 27495
+      }
+    },
+    {
+      "label": "Vernese Elk",
+      "value": {
+        "currentPrice": 2995,
+        "recentPrice": 2996,
+        "avgPrice": 2811
+      }
+    },
+    {
+      "label": "Sugar Pifiata",
+      "value": {
+        "currentPrice": 3000,
+        "recentPrice": 3125,
+        "avgPrice": 2525
+      }
+    },
+    {
+      "label": "Melon Pifata",
+      "value": {
+        "currentPrice": 3150,
+        "recentPrice": 3190,
+        "avgPrice": 3150
+      }
+    },
+    {
+      "label": "Grape Pifiata",
+      "value": {
+        "currentPrice": 2699,
+        "recentPrice": 3198,
+        "avgPrice": 2679
+      }
+    },
+    {
+      "label": "Soda Pifata",
+      "value": {
+        "currentPrice": 2850,
+        "recentPrice": 3199,
+        "avgPrice": 27475
+      }
+    }
+  ]
+}

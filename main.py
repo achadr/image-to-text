@@ -1,5 +1,6 @@
 # filepath: /c:/Projects/image-to-text-app/main.py
 from fastapi import FastAPI, File, UploadFile
+from fastapi.middleware.cors import CORSMiddleware
 from PIL import Image
 from dotenv import load_dotenv
 import json
@@ -13,6 +14,18 @@ app = FastAPI()
 load_dotenv()
 # Set your OpenAI API key
 openai.api_key = os.getenv("OPENAI_API_KEY")
+
+origins = [
+    "http://localhost:3000",
+]
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=origins,
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 @app.post("/image-to-data/")
 async def image_to_data(file: UploadFile = File(...)):
